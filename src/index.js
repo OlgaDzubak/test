@@ -1,13 +1,12 @@
 
 const options = {
     method:"GET",
-   // mode: "no-cors",
-  //  headers :{
-  //      "User-Agent" : "http://localhost:54099",
-  //      "Content-Type" : "application/json", 
-  //      "Acept" : "*/*",
-  //      "Connection": "keep-alive",
-//    }
+    mode: "no-cors",
+    headers :{
+         "User-Agent" : "https://olgadzubak.github.io/test/",
+         "Content-Type" : "application/json", 
+         "Accept" : "*/*",
+    }
 };
 
 fetchQuotas()
