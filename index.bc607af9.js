@@ -1,0 +1,2 @@
+const t={method:"GET",headers:{"User-Agent":"http://localhost:54099","Content-Type":"application/json",Acept:"*/*",Connection:"keep-alive"}};(async function(){return fetch("https://minfin.com.ua/data/currency/auction/eur.1000.median.daily.json",t).then((t=>{if(!t.ok)throw new Error(t.status);return console.dir(t),t.json()}))})().then((t=>t)).then((t=>t)).catch((t=>{"404"===t.message&&Notiflix.Notify.failure("Oops, there is no country with that name"),console.log(t.message)}));
+//# sourceMappingURL=index.bc607af9.js.map
