@@ -2,13 +2,12 @@
 const options = {
     method:"GET",
    // mode: "no-cors",
-    headers :{
-        "User-Agent" : "http://localhost:54099",
-        "Content-Type" : "application/json", 
-        "Acept" : "*/*",
-        "Connection": "keep-alive",
-        
-    }
+  //  headers :{
+  //      "User-Agent" : "http://localhost:54099",
+  //      "Content-Type" : "application/json", 
+  //      "Acept" : "*/*",
+  //      "Connection": "keep-alive",
+//    }
 };
 
 fetchQuotas()
