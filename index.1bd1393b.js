@@ -1,0 +1,2 @@
+const t={method:"GET",mode:"no-cors",headers:{"User-Agent":"https://olgadzubak.github.io/test/","Content-Type":"application/json",Accept:"*/*"}};(async function(){return fetch("https://minfin.com.ua/data/currency/auction/eur.1000.median.daily.json",t).then((t=>{if(!t.ok)throw new Error(t.status);return console.dir(t),t.json()}))})().then((t=>t)).then((t=>t)).catch((t=>{"404"===t.message&&Notiflix.Notify.failure("Oops, there is no country with that name"),console.log(t.message)}));
+//# sourceMappingURL=index.1bd1393b.js.map
